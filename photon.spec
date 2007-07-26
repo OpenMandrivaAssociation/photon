@@ -1,13 +1,13 @@
 %define name    photon
 %define Name    Photon
-%define version 0.3.1
-%define release %mkrel 4
+%define version 0.4.4
+%define release %mkrel 1
 
 Name:           %{name}
 Version:        %{version}
 Release:        %{release}
 Summary:        Photon is a static HTML gallery generator
-Source:         http://www.saillard.org/photon/%{Name}-%{version}.tar.bz2
+Source:         http://www.saillard.org/programs_and_patches/photon/files/%{Name}-%{version}.tar.bz2
 Url:            http://www.saillard.org/photon/
 License:        GPL
 Group:          Graphics
@@ -46,6 +46,7 @@ rm -rf %{buildroot}
 %defattr(-,root,root)
 %doc ChangeLog README BUGS
 %{_bindir}/%{name}
-%{_libdir}/python%{pyver}/site-packages/%{Name}
+%{python_sitelib}/%{Name}
+%{python_sitelib}/Photon-0.4.4-py2.5.egg-info
 %{_datadir}/%{name}
 
