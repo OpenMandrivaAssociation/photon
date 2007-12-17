@@ -13,7 +13,6 @@ License:        GPL
 Group:          Graphics
 BuildRequires:  python-devel
 BuildArch:      noarch
-BuildRoot:      %{_tmppath}/%{name}-%{version}
 
 %description
 Photon is a photo album with a clean design.
