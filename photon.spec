@@ -6,7 +6,7 @@
 Name:           %{name}
 Version:        %{version}
 Release:        %{release}
-Summary:        Photon is a static HTML gallery generator
+Summary:        Static HTML gallery generator
 Source:         http://www.saillard.org/programs_and_patches/photon/files/%{Name}-%{version}.tar.bz2
 Url:            http://www.saillard.org/photon/
 License:        GPL
