@@ -1,7 +1,7 @@
 %define name    photon
 %define Name    Photon
-%define version 0.4.4
-%define release %mkrel 2
+%define version 0.4.6
+%define release %mkrel 1
 
 Name:           %{name}
 Version:        %{version}
@@ -47,6 +47,6 @@ rm -rf %{buildroot}
 %doc ChangeLog README BUGS
 %{_bindir}/%{name}
 %{python_sitelib}/%{Name}
-%{python_sitelib}/Photon-0.4.4-py2.5.egg-info
+%{python_sitelib}/Photon-%{version}-py2.5.egg-info
 %{_datadir}/%{name}
 
