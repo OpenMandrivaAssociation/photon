@@ -1,7 +1,7 @@
 %define name    photon
 %define Name    Photon
 %define version 0.4.6
-%define release %mkrel 8
+%define release 9
 
 Name:           %{name}
 Version:        %{version}
