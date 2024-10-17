@@ -8,7 +8,7 @@ Version:        %{version}
 Release:        %{release}
 Summary:        Static HTML gallery generator
 Source:         http://www.saillard.org/programs_and_patches/photon/files/%{Name}-%{version}.tar.bz2
-Url:            http://www.saillard.org/photon/
+Url:            https://www.saillard.org/photon/
 License:        GPL
 Group:          Graphics
 BuildRequires:  python-devel
